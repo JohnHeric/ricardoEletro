@@ -4,9 +4,9 @@ export default function GradeProdutos(props){
     if (props.listaProdutos){
         return(
             <div>
-                    {props.listaProdutos.map((produto) => (
-                        <Produto key={produto.id} produto={produto} addItemToCart={props.addItemToCart}/>
-                    ))}
+                {props.listaProdutos.map((produto) => (
+                    <Produto key={produto.id} produto={produto} addItemToCart={props.addItemToCart}/>
+                ))}
             </div>
         )
     }

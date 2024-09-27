@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 export default function Produto(props){
     const [quantidade, setQuantidade] = useState(1);
 
